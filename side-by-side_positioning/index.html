@@ -1,0 +1,47 @@
+<html lang='en'>
+<head>
+  <meta charset='UTF-8'>
+  <meta name='viewport' content='width=device-width, initial-scale=1.0'>
+  <meta http-equiv='X-UA-Compatible' content='ie=edge'>
+  <link rel='stylesheet' href='style.css'>
+  <title>side by side positioning demo </title>
+</head>
+<body>
+  <h1>side-by-side positioning demo</h1>
+  
+<div class="red">
+  <p>these two divs are positioned next to one another using <span>display: inline-block</span></p>
+</div>
+<div class="red2">
+  <p>Notice the space between them. It occurs because of my carriage return in the HTML which I've used to keep the code organized. I've used a reset to insure no elements should have any default margins or padding. (I did add a bottom margin to make it easier to read.) This space is actually a space character rendered just as it would be between two inline elements.</p>
+</div>
+
+<div class="green">
+  <p>these are positioned using <span>float:left</span></p>
+</div>
+
+<div class="green2">
+    <p>You can see that, even though the elements are spaced in the code, the space is not actually rendered on the page. This may not be a huge deal in these first examples, but...</p>
+</div>
+
+<div class="red3">
+<p>What if I want my side-by-side elements to take up the full width of the parent element? I can set the width of each to 50%, right?</p>
+
+</div>
+
+<div class="red4">
+    <p>What if I want my side-by-side elements to take up the full width of the parent element? I can set the width of each to 50%, right?</p>
+    
+    </div>
+    <div class="green3">
+
+      <p>if i do the same thing with floated elements....</p>
+    </div>
+    
+    <div class="green4">
+    <p>The two elements are side-by-side just as I intended and fill the entire width of the parent (which, in this case, is the same as the width of the viewpor</p>
+
+    </div>
+    
+</body>
+</html>
