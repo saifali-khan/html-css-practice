@@ -1,0 +1,24 @@
+.parent {
+  text-align: center;
+  margin: 50px auto 0 auto;
+}
+.altcampus {
+  color: white;
+  background-color: #c2b280;
+  height: 60px;
+  padding-top: 10px;
+  padding-left: 10px;
+  margin: -0px;
+}
+.navigation {
+  height: 50px;
+  background-color: black;
+  font-size: 20px;
+  color: c2b180;
+  padding: 20px 0 0 20px;
+
+}
+span {
+  margin: 10px 0 10px 5px;
+}
+
