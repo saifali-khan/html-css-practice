@@ -1,0 +1,25 @@
+body {
+  background-color: #282931;
+  width: 650px;
+  font-family: 'Roboto Slab', serif;
+}
+.child1 {
+  color: red;
+}
+.child2 {
+  float: right;
+  color: #fc3565;
+  color: blanchedalmond;
+  
+}
+h1{
+  color: blanchedalmond;
+  text-shadow: 0px 1.5px 1.2px rgb(38, 59, 18);
+}
+p {
+  color: #868a58;
+}
+div {
+     position: relative;
+     left: 350px;
+}
