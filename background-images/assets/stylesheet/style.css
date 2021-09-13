@@ -1,0 +1,47 @@
+
+.parent {
+  color: aliceblue;
+  background-image: url("https://drscdn.500px.org/photo/75319705/q%3D80_h%3D600_of%3D1/v2?sig=1b1e7efedd19189803b69d5db02f6babc8652b0b21d354a5a405c3007c183c4b");
+  background-repeat: no-repeat;
+  width: 960px;
+  height: 600px;
+  margin: 0 auto;
+  text-align: center;
+}
+h5 {
+  margin-top: 60px;
+}
+h3 {
+  margin-left: 280px;
+}
+.box {
+  height: 130px;
+  width: 230px;
+  display: inline-block;
+  text-align: center;
+  margin-right: 40px;
+  border-radius: 5px;
+}
+.box1 {
+   margin-left: 55px;
+   background-color: #fc3565;
+}
+.box2 {
+  background-image: linear-gradient(to right,#272727,#fc3565)
+}
+.box3 {
+  background-image: radial-gradient(#fc3565,#272727)
+}
+.box4 {
+  text-align: center;
+  height: 350px;
+  width: 700px;
+  margin-left: 100px;
+  background-image: linear-gradient(to top left,#fc3565,transparent),
+   url("https://www.calliaweb.co.uk/wp-content/uploads/2015/10/good-aspect-ratio800x200.jpg");
+   border-radius: 5px;
+}
+.child1 {
+  position: relative;
+  top: 50%;
+}
