@@ -1,0 +1,35 @@
+body {
+  background-color: rgb(224, 224, 160);
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  padding: 20px;
+  margin: 0 auto;
+}
+ header{ 
+   display: flex;
+   justify-content: flex-end;
+  width: 1155px;
+} 
+main {
+  display: flex;
+  flex-wrap: wrap-reverse;
+  align-items: flex-start;
+  width: 1200px;
+  margin-left: 100px;
+}
+img {
+  height: 280px;
+}
+h2 {
+ margin-left: 100px;
+ display: inline-block;
+ position: relative;
+ right: 665px;
+}
+.jacket {
+  border: .5px solid rgb(218, 218, 11);
+}
+ select{ 
+  height: 25px;
+  margin-top: 25px;
+  width: 100px;
+}
