@@ -1,0 +1,46 @@
+
+.purple{
+  background-color: #AB47BC;
+}
+.orange{
+  background-color: #FFA726;
+}
+.green{
+  background-color: #4CAF50;
+}
+.yellow{
+  background-color: #FFEE58;
+}
+.blue{
+  background-color: #42A5F5;
+}
+.black{
+  color: white;
+  background-color: #111111;
+}
+
+:root,
+*:before,
+*:after{
+  box-sizing: border-box;
+}
+
+*{
+  margin: 0;
+  padding:0;
+  text-align: center;
+  height: 150px;
+  width: 100%;
+  line-height: 8;
+}
+
+/*   #sabka-baap{
+  display: flex;
+}  */
+
+
+.div-1,.div-2,.div-3,.div-4{
+display: flex;
+}
+
+
