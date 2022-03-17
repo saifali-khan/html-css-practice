@@ -1,0 +1,57 @@
+body {
+  background-color: rgb(245, 245, 238);
+}
+.hero {
+  font-weight: bolder;
+  font-size: 50px;
+  text-align: center;
+  color: rgb(9, 119, 245);
+  font-family: 'League Gothic', sans-serif;
+  margin-top: 50px;
+}
+.form {
+ width: 400px;
+ height: 350px;
+ background-color: white;
+ margin-left: 35%;
+ text-align: center;
+ border-radius: 5px;
+ box-shadow: 3px 3px rgba(12, 1, 1, .5);
+ padding-top: 20px;
+}
+.caps {
+  text-transform: capitalize; 
+}
+.formhead {
+  font-weight: 500;
+  font-size: 20px;
+  
+}
+input {
+  width: 350px;
+  margin-top: 20px;
+  height: 60px;
+  border-radius: 5px;
+  font-size: 16px;
+  padding-left: 20px;
+}
+button {
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  width: 350px;
+  height: 60px;
+  margin-top: 15px;
+  font-size: 26px;
+  border-radius: 5px;
+  background-color: rgb(76, 114, 252);
+}
+button:hover{
+  background-color: blue;
+}
+a {
+  text-decoration: none;
+  color: rgb(76, 114, 252);
+  margin: 5px;
+}
+a:hover{
+  text-decoration: underline;
+}
