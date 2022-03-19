@@ -7,40 +7,161 @@
   <title>html forms</title>
 </head>
 <body>
+  <div class='container'>
    <section class='col-1-3'>
 <div class="hc-1">
   radios, sliders, & toggles
-  
-</div>
-<form action=''><label class="f1" for=''>
-  <input type='checkbox' value="checkbox">
-  <span> independent checkboxes</span>
+</div><br><b>
+<form action=''><div class='hero'><label class="f1" for='checkbox'>
+  <input id="checkbox" type='checkbox' value="">
+   independent checkboxes</div><br><br>
   </label>
   </form>
+  <div class="option">
+<div class='hero'>all the options!</div>
+<div class='option1'>
+
+<div class='cc1'><label for='options'><input type='checkbox' id='options' class='options'>ham</label></div>
+<div class='cc1'><label for='options2'><input type='checkbox' id='options2' class='options'>mustard</label></div>
+<div class='cc1'><label for='options3'><input type='checkbox' id='options3' class='options'>rye</label></div>
+<div class='cc1'><label for='options4'><input type='checkbox' id='options4' class='options'>pickles</label></div>
+<div class='cc1'><label for='options5'><input type='checkbox' id='options5' class='options'>arugala</label></div>
+<div class='cc1'><label for='options6'><input type='checkbox' id='options6' class='options'>seitan</label></div>
+  
+</div>
+  </div>
+  <div class='option lok'>
+<div class='hero'>yes | no</div>
+<form action=''>
+  <input name="choice" type='radio' id="yes"><label for='yes'><div class='kkl'>yes</div></label><br>
+  <input name="choice" type='radio' id="no"><label for='no'><div class='kkl lkk'>no</div></label>
+</form>
+  </div>
+<div class='option nok'>
+  <div class='hero'>one of many</div>
   <form action=''>
-    <input type="checkbox" name="spices option">
+<input type='radio' name="oom" id="1"><label for='1'><div class='kkl por'>0-100</div></label><br>
+<input type='radio' name="oom" id="2"><label for='2'><div class='kkl por'>101-500</div></label><br>
+<input type='radio' name="oom" id="3"><label for='3'><div class='kkl'>501-1000</div></label><br>
   </form>
-
-
+</div>
+<div class='option'>
+<div class='hero'>range</div>
+<input class="rer" type='range'>
+</div>
    </section><!--
-
+     -----
    --><section class='col-1-3'>
 <div class="hc-1">
   select & datalists
 </div>
-
-
+<div class='option cc2'>
+<div class='hero'>select one</div>
+<select class="cc3" name='' id=''>
+<option value='option0'>option0</option>
+<optgroup label="group 1">
+  <option value='option1'>option1</option>
+  <option value='option2'>option2</option>
+  <option value='option3'>option3</option>
+</optgroup>
+<optgroup label="group2">
+<option value='option4'>option4</option>
+<option value='option5'>option5</option>
+<option value='option6'>option6</option>
+</optgroup>
+</select>
+</div><br>
+<div class='hc1 ppo'>
+  <div class='hero nc1'>select multiples</div>
+<div>
+<select class="c12" name='' id='' multiple>
+  <label for=''><option value=''>option1</option></label>
+  <option value=''>option2</option>
+  <option value=''>option3</option>
+</select>
+</div>
+</div>
+<form autocomplete="off" action=''>
+    <div class='lmc'>
+        <h4 class='lop'>auto complete input</h4><input type='text' placeholder="autocomplete" class='mnc dmc'>
+      </div>
+</form>
    </section><!--
-
+---------------------
    --><section class='col-1-3'>
 <div class="hc-1">
   text, number, & specialized text
 </div>
-
-
+<form action=''>
+<div class='lmc'>
+<h4> text </h4><input class="mnc" type='text' placeholder="plain text">
+</div>
+<div class='lmc'><h4 class="lop">email</h4><input class="mnc" type='email' placeholder="name@email.ext">
+</div>
+<div class='lmc'>
+  <h4 class="lop">number</h4><input class="mnc" type='number' placeholder="number">
+</div>
+<div class='lmc'>
+  <h4 class="lop">password</h4><input class="mnc" type='password' placeholder="password">
+</div>
+<div class='lmc'>
+  <h4 class='lop'>tel</h4><input class="mnc" type='tel' placeholder="110-001-0000">
+</div>
+<div class='lmc'>
+  <h4 class='lop'>textarea</h4><textarea class="mnc" name='' id='' cols='' rows='' placeholder="this describes contents for this area."></textarea>
+</div>
+<div class='lmc'>
+  <h4 class='lop'>url</h4><input type='url' class='mnc' placeholder="www.yourdomain.ext">
+</div>
+</form>
    </section>
+  </div>
+<div class='container'>
+<section class='col-1-3'>
+<div class='hc-1'>date, time...</div>
+<div class='lmc'>
+  <h4 class='lop'>date</h4><input type='date' class='mnc'>
+</div>
+<div class='lmc'>
+    <h4 class='lop'>datetime-local</h4><input type='datetime-local' class='mnc'>
+  </div>
+  <div class='lmc'>
+      <h4 class='lop'>month</h4><input type='month' class='mnc'>
+    </div>
+    <div class='lmc'>
+        <h4 class='lop'>week</h4><input type='week' class='mnc'>
+      </div>
+      <div class='lmc'>
+          <h4 class='lop'>time</h4><input type='time' class='mnc'>
+        </div>
+</section><!--
+  -----
+-->
+<section class='col-1-3'>
+<div class='hc-1'>uploads, searches, etc..</div>
+<div class='lmc'>
+    <h4 class='lop'>file</h4><input type='file' class='mnc kkk'>
+  </div>
+  <div class='lmc'>
+      <h4 class='lop'>search</h4><input type='search' placeholder="search" class='mnc'>
+    </div>
   
+</section><!--
+  -----
+-->
+<section class='col-1-3'>
 
+  <div class='hc-1'>buttons.</div>
+  <div class='lmc'>
+      <h4 class='lop'>reset</h4><input type='reset' class='mnc reset'>
+    </div>
+    <div class='lmc'>
+        <h4 class='lop'>submit</h4><input type='submit' class='mnc sub'>
+      </div>
+</section>
+
+
+</div>
 
 
 
