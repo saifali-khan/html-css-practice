@@ -1,3 +1,9 @@
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background-color: aqua;
+}
 .container {
   margin: 0 auto;
   width: 960px;
@@ -37,7 +43,7 @@ audio{
   margin: 0px 30px 90px 0px;
 }
 video {
-  margin-bottom: 30px;;
+  margin-bottom: 30px;
 }
 .child3 {
   width: 250px;

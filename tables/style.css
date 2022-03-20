@@ -1,0 +1,27 @@
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  width: 1200px;
+}
+
+table {
+  border-collapse: collapse; 
+  background-color: rgb(159, 226, 221);
+}
+td, th {
+  border: 1px solid gray;
+  padding: 20px;
+}
+th {
+  color: white;
+  background-color: maroon;
+}
+.item1 {
+  color: white;
+  background-color: black;
+  font-style: italic;
+}
+tr:hover {
+  background-color: yellow;
+}
