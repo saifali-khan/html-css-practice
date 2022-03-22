@@ -1,0 +1,83 @@
+body {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+.container {
+  width: 1000px;
+  margin: 100px auto;
+  background-color: white;
+  position: absolute;
+  left: 200px;
+}
+section {
+width: 498px;
+margin: 0;
+padding: 0;
+height: 200px;
+display: inline-block;
+}
+.sec-1 {
+  background-color: blue;
+  animation-name: blue;
+  animation-duration: 12s;
+  animation-delay: 2s;
+  position: relative;
+  animation-direction: alternate;
+  animation-iteration-count: infinite;
+}
+@keyframes blue {
+  0% {background-color: blue; left: 0px; top: 0px;}
+  25% {background-color: red; left: 501px; top: 0px;}
+  50% {background-color: yellow; left: 501px; top: 204px;}
+  75% {background-color: cyan; left: 0px; top: 204px;}
+  100% {background-color: blue; left: 0px; top: 0px;}
+}
+.sec-2 {
+  background-color: red;
+  animation-name: red;
+  animation-duration: 12s;
+  animation-delay: 2s;
+  position: relative;
+  animation-direction: alternate;
+  animation-iteration-count: infinite;
+}
+@keyframes red {
+  0% {background-color: red; left: 0px; top: 0px;}
+  25% {background-color: yellow; right: 0px; top: 204px;}
+  50% {background-color: cyan; right: 501px; top: 204px;}
+  75% {background-color: blue; right: 501px; top: 0px;}
+  100% {background-color: red; right: 0px; top: 0px;}
+}
+.sec-3 {
+  background-color: cyan;
+  animation-name: cyan;
+  animation-duration: 12s;
+  animation-delay: 2s;
+  position: relative;
+  animation-direction: alternate;
+  animation-iteration-count: infinite;
+}
+@keyframes cyan {
+  0% {background-color: cyan; left: 0px; bottom: 0px;}
+  25% {background-color: blue; left: 0px; bottom: 204px;}
+  50% {background-color: red; left: 501px; bottom: 204px;}
+  75% {background-color: yellow; left: 501px; bottom: 0px;}
+  100% {background-color: cyan; left: 0px; bottom: 0px;}
+}
+.sec-4 {
+  background-color: yellow;
+  animation-name: yellow;
+  animation-duration: 12s;
+  animation-delay: 2s;
+  position: relative;
+  animation-direction: alternate;
+  animation-iteration-count: infinite;
+}
+@keyframes yellow {
+  0% {background-color: yellow; bottom: 0px; right: 0px;}
+  25% {background-color: cyan; bottom: 0px; right: 504px}
+  50% {background-color: blue; bottom: 204px; right: 501px}
+  75% {background-color: red; bottom: 204px; right: 0px;}
+  100% {background-color: yellow; bottom: 0px; right: 0px;}
+}
