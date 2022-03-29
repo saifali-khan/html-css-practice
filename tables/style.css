@@ -4,7 +4,6 @@ body {
   box-sizing: border-box;
   width: 1200px;
 }
-
 table {
   border-collapse: collapse; 
   background-color: rgb(159, 226, 221);
