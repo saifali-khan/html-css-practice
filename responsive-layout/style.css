@@ -1,0 +1,271 @@
+body {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color: white;
+  background-color: black;
+}
+.container {
+  width: 1000px;
+  margin: 0 auto;
+}
+
+/* header */
+
+header, ul {
+  display: flex;
+  justify-content: space-between;
+  background-color: rgb(51, 51, 73);
+  align-items: center;
+  text-transform: uppercase;
+  margin: 0;
+}
+li {
+  list-style: none;
+  margin: 10px;
+}
+a {
+  color: white;
+  text-decoration: none;
+}
+
+/* first section */
+
+.f-sec {
+  background-image: linear-gradient(rgb(33, 155, 98),rgb(21, 235, 128));
+  padding-top: 50px;
+  padding-bottom: 30px;
+  text-transform: uppercase;
+}
+.f-img {
+  display: block;
+  height: 150px;
+  border-radius: 50%;
+  position: relative;
+  left: 39%;
+}
+.hero1 {
+  text-align: center;
+  font-size: 50px;
+  margin: 0;
+}
+.cap1 {
+  text-align: center;
+  text-transform: capitalize;
+}
+@media (max-width:500px) {
+  .container {
+    width: 500px;
+  }
+  header {
+    display: block;
+    background-color: rgb(33, 155, 98);
+    margin: 0 auto;
+    width: 100%;
+    text-align: center;
+  }
+  h1 {
+    margin: 0;
+  }
+  .hero1 {
+    font-size: 25px;
+  }
+  .f-img {
+    margin: auto;
+    left: 0;
+  }
+}
+/* second section */
+.sec2 {
+  padding: 15px;
+  background-color: white;
+  color: black;
+  text-align: center;
+  font-size: 25px;  
+}
+.img-container {
+  width: 620px;
+  margin: 0 auto;
+}
+.pf-img {
+  width: 200px;
+}
+@media (max-width: 500px) {
+  
+  .sec2 h1 {
+    margin-right: 35px;
+    font-size: 20px;
+  }
+  .img-container {
+   width: 250px;
+   margin: 0 auto;
+  }
+  .pf-img {
+    display: block;
+    margin-top: 5px;
+    margin-left: 15px;
+  }
+}
+/* third section */
+.sec3 {
+  background-image: linear-gradient(rgb(33, 155, 98),rgb(21, 235, 128));
+  text-align: center;
+  padding: 20px;
+}
+.sec3 h1 {
+  font-size: 40px;
+  text-transform: uppercase;
+}
+.cap2 {
+  width: 200px;
+  display: inline-block;
+  margin: 10px;
+  text-align: left;
+}
+.sub1 {
+  width: 100px;
+  height: 2rem;
+  margin-top: 10px;
+  color: white;
+  background-color: rgb(33, 155, 98);
+  border: 1px solid transparent;
+  border-radius: 5px;
+}
+.sub1:hover {
+  background-color: white;
+  color: rgb(33, 155, 98);
+}
+@media (max-width: 500px) {
+  .cap2 {
+    display: block;
+    margin: 15px auto;
+  }
+  .sec3 h1 {
+    font-size: 20px;
+  }
+}
+/* fourth section */
+.sec4 {
+  background-color: white;
+  color: black;
+  padding: 15px;
+}
+.sec4 h1 {
+  font-size: 40px; 
+  text-transform: uppercase;
+  text-align: center;
+}
+.inp {
+  border: none;
+  width: 300px;
+  margin-left: 20px;
+  height: 25px;
+}
+.con1 {
+  border-bottom: 1px solid black;
+  margin-bottom: 15px;
+}
+.contact {
+  width: 500px;
+  margin: 0 auto;
+}
+.sub2 {
+  width: 100px;
+  height: 2rem;
+  margin: 30px 0;
+  color: white;
+  background-color: rgb(33, 155, 98);
+  border: 1px solid transparent;
+  border-radius: 5px;
+}
+@media (max-width: 500px) {
+  .contact {
+    width: 250px;
+    margin: 0 auto;
+  }
+  .inp {
+    width: 150px;
+  }
+  textarea {
+    width: 245px;
+  }
+  .sec4 h1 {
+    font-size: 20px;
+  }
+}
+/* fifth section */
+.sec5 {
+  padding: 20px;
+  background-color: gray;
+}
+.map {
+  margin: 30px 170px;
+}
+@media (max-width: 500px) {
+  .iframe {
+    width: 100%;
+    margin: 0 auto;
+  }
+  .map {
+    margin: 0 auto;
+  }
+}
+/* sixth section */
+.sec6 {
+  background-color: white;
+  color: black;
+  padding: 15px;
+}
+.sec6 h1 {
+  text-transform: uppercase;
+  text-align: center;
+  font-size: 40px;
+}
+table {
+  width: 700px;
+  margin: 0 auto;
+  border-collapse: collapse;
+}
+th, td {
+  text-align: left;
+  padding: 15px;
+  border-collapse: collapse;
+}
+thead {
+  background-color: rgb(1, 1, 41);
+  color: rgb(17, 17, 182);
+  font-size: 20px;
+  font-weight: bolder;
+}
+.tr1 {
+  background-color: rgb(39, 39, 59);
+}
+.tr2 {
+  background-color: rgb(24, 24, 46);
+}
+td:first-child {
+  color: red;
+}
+td:hover {
+  background-color: yellow;
+  box-shadow: -8px 8px 5px rgb(146, 146, 18);
+  color: gray;
+}
+tr:hover {
+  background-color: gray;
+}
+thead tr:hover {
+  background-color: rgb(1, 1, 41);
+}
+@media (max-width: 500px) {
+  table {
+    width: 400px;
+  }
+  .sec6 h1 {
+    font-size: 20px;
+  }
+  td, th {
+    padding: 10px;
+  }
+}
